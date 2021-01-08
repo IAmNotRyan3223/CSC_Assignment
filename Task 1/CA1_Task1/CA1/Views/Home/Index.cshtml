@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+    </script>
+
+</head>
+<body>
+    <h1>Select date</h1>
+    <form>
+        <label for="date">Date:</label>
+        <input type="date" id='date' name='date' /><br />
+    </form>
+    <button id="btn">Submit</button><br />
+
+    <div id="output">
+    </div>
+
+
+    <script type="text/javascript">
+        $(btn).click(function () {
+            var date = document.getElementById('date').value;
+            $.ajax({
+                type: 'GET',
+                url: 'https://api.data.gov.sg/v1/environment/24-hour-weather-forecast?date=' + date,
+                success: function (result) {
+
+
+                    $(output).after(
+                        '<p> General Forecast:' + result['items']['0']['general']['forecast'] + '</p>' +
+                        '<p>Relative humidity temp: ' + result['items']['0']['general']['relative_humidity']['high'] + '</p>' +
+                        '<p>Relative humidity temp: ' + result['items']['0']['general']['relative_humidity']['low'] + '</p>' +
+                        '<p>Highest temp: ' + result['items']['0']['general']['temperature']['high'] + '</p>' +
+                        '<p>Lowest temp: ' + result['items']['0']['general']['temperature']['low'] + '</p>' +
+                        '<p>Highest wind speed: ' + result['items']['0']['general']['wind']['speed']['high'] + '</p>' +
+                        '<p>Lowest wind speed: ' + result['items']['0']['general']['wind']['speed']['low'] + '</p>' +
+                        '<p>Wind direction: ' + result['items']['0']['general']['wind']['direction'] + '</p>');
+                }
+            });
+        });
+
+    </script>
+
+    <div id="element">   </div>
+</body>
+</html>
+

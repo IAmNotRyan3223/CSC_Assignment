@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Product App</title>
+</head>
+<body>
+
+    <div>
+        <h2>All Products</h2>
+        <ul id="products" />
+    </div>
+    <div>
+        <h2>Search by ID</h2>
+        <input type="text" id="prodId" size="5" />
+        <input type="button" value="Search" onclick="findById();" />
+        <p id="product" />
+    </div>
+    <div>
+        <h2>Search by Category</h2>
+        <input type="text" id="prodCategory" size="5" />
+        <input type="button" value="Search" onclick="findByCategory();" />
+        <ul id="productbycategory" />
+    </div>
+    <div>
+        <h2>Create a new Product</h2>
+        <input type="text" id="newProdName" size="5" required/>
+        <input type="text" id="newProdCategory" size="5" required/>
+        <input type="number" id="newProdPrice" size="5" required/>
+        <input type="button" value="Create" onclick="createNewProduct();" />
+        <p id="createdproduct" />
+    </div>
+    <div>
+        <h2>Update a Product</h2>
+        <select name="updateitems" id="updateitems"></select>
+        <input type="text" id="updateProdName" size="5" required/>
+        <input type="text" id="updateProdCategory" size="5" required />
+        <input type="number" id="updateProdPrice" size="5" required min="0" max="100"/>
+        <input type="button" value="Update" onclick="updateProduct();" />
+    </div>
+    <div>
+        <h2>Delete a Product</h2>
+        <select name="deleteitems" id="deleteitems"></select>
+        <input type="button" value="Delete" onclick="deleteProuct();" />
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <script type="text/javascript">
+        var uri = 'api/v3/products';
+        //http://localhost:9000/api/v1/products/ //http://csc123.azurewebsites.net/api/v1/products
+
+
+
+        $(document).ready(function () {
+            // Send an AJAX request
+            var $productupdatedropdown = $("#updateitems");
+            var $productdeletedropdown = $("#deleteitems");
+
+            $productupdatedropdown.append($("<option />").val(null).text("Please select an item"));
+            $productdeletedropdown.append($("<option />").val(null).text("Please select an item"));
+            $.getJSON(uri)
+                .done(function (data) {
+                    // On success, 'data' contains a list of products.
+                    $.each(data, function (key, item) {
+                        // Add a list item for the product.
+                        $('<li>', { text: formatItem(item) }).appendTo($('#products'));
+                        if (item.Id != 1) {
+                            $productupdatedropdown.append($("<option />").val(item.Id).text(item.Name));
+                            $productdeletedropdown.append($("<option />").val(item.Id).text(item.Name));
+                        }
+
+                    });
+                });
+        });
+
+        function formateItemDropdown(item) {
+            return item.Name;
+        }
+
+        function formatItem(item) {
+            return item.Name + ': $' + item.Price;
+        }
+
+        function findById() {
+            var id = $('#prodId').val();
+            if (id != "") {
+                $.getJSON(uri + '/' + id)
+                    .done(function (data) {
+                        $('#product').text(formatItem(data));
+                    })
+                    .fail(function (jqXHR, textStatus, err) {
+                        console.log(err)
+                        $('#product').text('Error: no product found');
+                    });
+            }
+
+        }
+
+        function findByCategory() {
+            var category = $('#prodCategory').val();
+            if (category != "") {
+                $.getJSON(uri + "?category=" + category)
+                    .done(function (data) {
+                        $('#productbycategory').empty();
+                        if (data.length != 0) {
+                            $.each(data, function (key, item) {
+                                // Add a list item for the product.
+                                $('<li>', { text: formatItem(item) }).appendTo($('#productbycategory'));
+                            });
+                        } else {
+
+                            $('<li>', { text: "No item in " + category + " categorty." }).appendTo($('#productbycategory'));
+
+                        }
+                    })
+
+            }
+
+        }
+
+        function WebFormData(inName, inCategory, inPrice) {
+            this.name = inName;
+            this.category = inCategory;
+            this.price = inPrice;
+        }
+
+        function createNewProduct() {
+
+            let collectedName = $('#newProdName').val();
+            let collectedCategory = $('#newProdCategory').val();
+            let collectedPrice = $('#newProdPrice').val();
+
+            let webformdata = new WebFormData(collectedName, collectedCategory, collectedPrice);
+            console.log(webformdata);
+
+            $.ajax({
+                type: "POST",
+                url: uri,
+                data: webformdata
+            })
+                .done(function (data) {
+                    alert("Created successfully")
+                    location.reload();
+                })
+                .fail(function (jqXHR, textStatus, err, data, response) {
+                    alert("Error creating product");
+                })
+        }
+
+        var updateselected,deleteselected;
+
+        $('#updateitems').on('change', function () {
+            updateselected = this.value;
+          
+        });
+
+
+        $('#deleteitems').on('change', function () {
+            deleteselected = this.value;
+         
+        });
+
+
+        function updateProduct() {
+            let collectedName = $('#updateProdName').val();
+            let collectedCategory = $('#updateProdCategory').val();
+            let collectedPrice = $('#updateProdPrice').val();
+
+            let webformdata = new WebFormData(collectedName, collectedCategory, collectedPrice);
+            if (updateselected != null) {
+                $.ajax({
+                    type: "Put",
+                    url: uri + '/' + updateselected,
+                    data: webformdata
+                })
+                    .done(function (data) {
+                    
+                        location.reload();
+                    }).fail(function (jqXHR, textStatus, err, data) {
+                        alert("Update Failed")
+                    })
+            }
+
+        }
+
+        function deleteProuct() {
+
+            if (deleteselected != null) {
+                $.ajax({
+                    type: "Delete",
+                    url: uri + '/' + deleteselected,
+                    
+                })
+                    .done(function (data) {
+                        alert("Deleted successfully");
+                        location.reload();
+                    }).fail(function (jqXHR, textStatus, err, data) {
+                        console.log(data)
+                    })
+            }
+
+        }
+    </script>
+</body>
+</html>

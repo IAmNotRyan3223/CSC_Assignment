@@ -1,0 +1,255 @@
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\ProductStore.dll.config
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\ProductStore.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\ProductStore.pdb
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\csc.exe
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\csc.exe.config
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\csc.rsp
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\csi.exe
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\csi.exe.config
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\csi.rsp
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\Microsoft.Managed.Core.targets
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.AppContext.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Collections.Immutable.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Console.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Globalization.Calendars.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.IO.Compression.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.IO.FileSystem.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Net.Http.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Net.Sockets.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Reflection.Metadata.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.ValueTuple.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Xml.XmlDocument.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Xml.XPath.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\vbc.exe
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\vbc.exe.config
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\vbc.rsp
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\VBCSCompiler.exe
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\roslyn\VBCSCompiler.exe.config
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\Antlr3.Runtime.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\Microsoft.Web.Infrastructure.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\Newtonsoft.Json.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Net.Http.Formatting.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Web.Helpers.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Web.Http.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Web.Http.WebHost.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Web.Mvc.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Web.Optimization.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Web.Razor.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Web.WebPages.Deployment.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Web.WebPages.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Web.WebPages.Razor.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\WebGrease.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\Newtonsoft.Json.xml
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Net.Http.Formatting.xml
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Web.Helpers.xml
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Web.Http.xml
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Web.Http.WebHost.xml
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Web.Mvc.xml
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Web.Optimization.xml
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Web.Razor.xml
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Web.WebPages.xml
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Web.WebPages.Deployment.xml
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\System.Web.WebPages.Razor.xml
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\Antlr3.Runtime.pdb
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\obj\Debug\ProductStore.csprojAssemblyReference.cache
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\obj\Debug\ProductStore.csproj.CoreCompileInputs.cache
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\obj\Debug\ProductStore.csproj.CopyComplete
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\obj\Debug\ProductStore.dll
+D:\School\CSC\Practical\Practical 3\ProductStore\ProductStore\obj\Debug\ProductStore.pdb
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\ProductStore.dll.config
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\ProductStore.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\ProductStore.pdb
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\csc.exe
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\csc.exe.config
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\csc.rsp
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\csi.exe
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\csi.exe.config
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\csi.rsp
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.Managed.Core.targets
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.AppContext.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Collections.Immutable.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Console.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Globalization.Calendars.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.IO.Compression.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.IO.FileSystem.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Net.Http.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Net.Sockets.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Reflection.Metadata.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.ValueTuple.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Xml.XmlDocument.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Xml.XPath.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\vbc.exe
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\vbc.exe.config
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\vbc.rsp
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\VBCSCompiler.exe
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\VBCSCompiler.exe.config
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\Antlr3.Runtime.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\Microsoft.Web.Infrastructure.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\Newtonsoft.Json.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Net.Http.Formatting.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Helpers.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Http.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Http.WebHost.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Mvc.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Optimization.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Razor.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.WebPages.Deployment.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.WebPages.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.WebPages.Razor.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\WebGrease.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\Newtonsoft.Json.xml
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Net.Http.Formatting.xml
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Helpers.xml
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Http.xml
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Http.WebHost.xml
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Mvc.xml
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Optimization.xml
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Razor.xml
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.WebPages.xml
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.WebPages.Deployment.xml
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.WebPages.Razor.xml
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\Antlr3.Runtime.pdb
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\obj\Debug\ProductStore.csprojAssemblyReference.cache
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\obj\Debug\ProductStore.csproj.CoreCompileInputs.cache
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\obj\Debug\ProductStore.csproj.CopyComplete
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\obj\Debug\ProductStore.dll
+D:\School\CSC\CSC Assignment 1\Task 2\ProductStore\ProductStore\obj\Debug\ProductStore.pdb
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\ProductStore.dll.config
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\ProductStore.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\ProductStore.pdb
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\csc.exe
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\csc.exe.config
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\csc.rsp
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\csi.exe
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\csi.exe.config
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\csi.rsp
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.AppContext.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Console.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.IO.Compression.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Net.Http.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.ValueTuple.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\vbc.exe
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\vbc.exe.config
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\vbc.rsp
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\VBCSCompiler.exe
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\Antlr3.Runtime.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\Newtonsoft.Json.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Net.Http.Formatting.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Helpers.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Http.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Http.WebHost.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Mvc.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Optimization.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Razor.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.WebPages.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.WebPages.Razor.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\WebGrease.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\Newtonsoft.Json.xml
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Net.Http.Formatting.xml
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Helpers.xml
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Http.xml
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Http.WebHost.xml
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Mvc.xml
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Optimization.xml
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.Razor.xml
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.WebPages.xml
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\System.Web.WebPages.Razor.xml
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\Antlr3.Runtime.pdb
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\obj\Debug\ProductStore.csprojAssemblyReference.cache
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\obj\Debug\ProductStore.csproj.CoreCompileInputs.cache
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\obj\Debug\ProductStore.csproj.CopyComplete
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\obj\Debug\ProductStore.dll
+C:\Users\Louis\OneDrive\Desktop\Test\CSC Assignment 1\Task 2\ProductStore\ProductStore\obj\Debug\ProductStore.pdb

@@ -1,0 +1,145 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clarifai Workflow API Demo</title>
+    <link rel="stylesheet" type="text/css" href="~/Scripts/styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli" />
+    <script type="text/javascript" src="https://sdk.clarifai.com/js/clarifai-latest.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header-text">Analyze My Image!</h1>
+    </header>
+    <div class="container">
+        <div class="upload-photo">
+            <input class="file-upload" type="file" onchange="uploadImage()">
+
+            <div class="photo-container">
+                <img class="photo" src="" alt="Image preview">
+            </div>
+        </div>
+        <div class="analysis" id="analysis">
+        </div>
+
+</body>
+<script>
+    var clarifaiApiKey = '4184da8857cc4f77acc54d06569c2f84';
+    var workflowId = 'General';
+
+
+    var app = new Clarifai.App({
+        apiKey: clarifaiApiKey
+    });
+
+    // Handles image upload
+    function uploadImage() {
+        var preview = document.querySelector('img');
+        var file = document.querySelector('input[type=file]').files[0];
+        var reader = new FileReader();
+
+        reader.addEventListener("load", function () {
+            preview.src = reader.result;
+            var imageData = reader.result;
+            imageData = imageData.replace(/^data:image\/(.*);base64,/, '');
+            predictFromWorkflow(imageData);
+            getTotalAmt(imageData);
+
+        }, false);
+
+        if (file) {
+            reader.readAsDataURL(file);
+            preview.style.display = "inherit";
+        }
+
+
+    }
+
+    function getTotalAmt(imageData) {
+
+
+        var data = new FormData();
+        data.append('file', imageData); // This is file object
+
+        console.log(imageData)
+        var xhr = new XMLHttpRequest();
+
+        xhr.addEventListener("readystatechange", function () {
+            if (this.readyState === this.DONE) {
+                console.log(this.responseText);
+            }
+        });
+
+        xhr.open("POST", "https://app.nanonets.com/api/v2/OCR/Model/634e003b-fdf7-407b-93ad-f9fb54a59770/LabelFile/");
+        xhr.setRequestHeader("authorization", "Basic " + btoa("DabkDzCeeygUuprbLSEjNnUnhj3Ij4_l:"));
+
+        xhr.send(data);
+
+
+        console.log(xhr.getAllResponseHeaders())
+    }
+
+    // Analyzes image provided with Clarifai's Workflow API
+    function predictFromWorkflow(photoUrl) {
+        app.workflow.predict(workflowId, { base64: photoUrl }).then(
+            function (response) {
+                var outputs = response.results[0].outputs;
+                var analysis = $(".analysis");
+
+                analysis.empty();
+                console.log(outputs);
+
+                outputs.forEach(function (output) {
+                    var modelName = getModelName(output);
+
+                    // Create heading for each section
+                    var newModelSection = document.createElement("div");
+                    newModelSection.className = modelName + " modal-container";
+
+                    var newModelHeader = document.createElement("h2");
+                    newModelHeader.innerHTML = modelName;
+                    newModelHeader.className = "model-header";
+
+                    var formattedString = getFormattedString(output);
+                    var newModelText = document.createElement("p");
+                    newModelText.innerHTML = formattedString;
+                    newModelText.className = "model-text";
+
+                    newModelSection.append(newModelHeader);
+                    newModelSection.append(newModelText);
+                    analysis.append(newModelSection);
+                });
+            },
+            function (err) {
+                console.log(err);
+            }
+        );
+    }
+
+    // Helper function to get model name
+    function getModelName(output) {
+        if (output.model.display_name !== undefined) {
+            return output.model.display_name;
+        } else if (output.model.name !== undefined) {
+            return output.model.name;
+        } else {
+            return "";
+        }
+    }
+
+    // Helper function to get output customized for each model
+    function getFormattedString(output) {
+        var formattedString = "The thing we are most confident in detecting is:";
+        var data = output.data;
+        var maxItems = output.data.concepts.length;
+        var items = data.concepts;
+        for (var i = 0; i < maxItems; i++) {
+            formattedString += "<br/>- " + items[i].name + " at a " + (Math.round(items[i].value * 10000) / 100) + "% probability";
+        }
+
+        return formattedString;
+    }
+</script>
+</html>

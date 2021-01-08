@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        $('#btn').click(function () {
+            $.ajax({
+                type: 'GET',
+                url: 'https://api.data.gov.sg/v1/environment/24-hour-weather-forecast',
+                dataType: 'json',
+                success: function (result) {
+                    console.log(result)
+                }
+            });
+        });
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

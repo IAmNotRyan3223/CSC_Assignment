@@ -1,0 +1,121 @@
+﻿@{
+    ViewBag.Title = "Upload a file to S3 Bucket";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>Use this area to browse image and upload to S3 bucket.</p>
+
+
+<div>
+    <input type="file" name="file" id="file" value="dataFile" required="">
+    <br />
+    <input type="submit" value="Upload" onclick="uploadFile();">
+    <br />
+    <div>
+
+        <div class="shortUrl"></div>
+    </div>
+    <img src="https://i.gifer.com/ZZ5H.gif" id="gif" width="100" height="60" style="display: none;">
+
+</div>
+
+
+ <div id="objKeys"></div>
+<div id="objImgs"></div>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.1.24.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.0.0-rc1.min.js"></script> 
+<script>
+    AWS.config.update({
+        accessKeyId: 'ASIAQFLRXHJGPEVRXSGC',
+        secretAccessKey: 'idcEPiglNaIbK6Ym/mMsyTm22tz4ivgNN+ozyimO',
+        sessionToken: 'FwoGZXIvYXdzEKf//////////wEaDPm/JaYWD1T3n0NcUCLKAcE3nTZuM6dLGvyMlN4rcUM21yoXFrUq8wFyQgv8dVIDWTsAVXKfWBfgy10cWszI4u54i+6rEQJIFE8ON0hZFcXY6z/++InaxEwwg/tgpnJe6Q5l8YB/eGwqt4WyqiWTAGpM/wvdmi/s+xiDJbwdlkaNfdfmuVAdKA3IXxlLgfpTIX9Fk99QsFUy5wb49dXOlaP2L7/T/tKDU3OVG7/DfenG3YyZUFyawuy/sa8SHrtys7CGOCaIHo6ubNVhh5vYA5pSnwoHxgsfUfAo8rrh/wUyLVnk5aHClEM9p3uwRRkvSXbnAQ0NjFdnXbDRafRwpRKMIyCHAjJagT9p+KRQSA=='
+    });
+    AWS.config.region = 'us-east-1';
+    var s3 = new AWS.S3({
+        params: { Bucket: 'task-5-bucket' }
+    });
+    var counter = 0;
+    var i = 0;
+    value = $("#counter").html();
+    function showLoad() {
+        $('#gif').show(); 
+    }
+
+    function hideLoad() {
+        $('#gif').hide(); 
+    }
+
+
+
+    function uploadFile() {
+        showLoad();
+        var file = document.getElementById('file').files[0];
+        if (file) {
+            s3.putObject({
+                Key: file.name,
+                ContentType: file.type,
+                Body: file,
+                ACL: "public-read"
+            },
+                function (err, data) {
+                  
+                    if (data !== null) {
+                        
+                       
+                       return fetch('https://api-ssl.bitly.com/v4/shorten',{
+                            method: 'POST',
+                            headers: {
+                                'Authorization': 'Bearer e77361a342a27d37adf1cab93ebedbcca530e6d1',
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({
+                            "long_url": "https://s3.amazonaws.com/"
+                                + "task-5-bucket" + "/" + file.name
+                        })
+                       }).then(response => response.json())
+                           .then(data => {
+                               hideLoad();
+                               var shortUrlTag = $('.shortUrl');
+                               console.log(data.link)
+
+                               var newModelText = document.createElement("p");
+                               newModelText.innerHTML = "This is the shortened Url: " + data.link;
+                               shortUrlTag.append(newModelText)
+
+                           });
+                        
+                     
+                    }
+                    else {
+                    }
+                });
+        }
+    }
+
+    function listObjs() {
+
+        s3.listObjects(function (error, data) {
+            console.log("im here")
+            if (error === null) {
+                var html_keys = 'Object Keys:<br />';
+                var html_imgs = '';
+
+                jQuery.each(data.Contents, function (index, obj) {
+                    html_keys += (index + ': ' + obj.Key + '<br />');
+                        
+                    html_imgs += "<img src='" + "https://s3.amazonaws.com/"
+                        + "task-5-bucket" + "/" + obj.Key + "'/><br/>";
+
+
+                });
+                jQuery("#objKeys").html(html_keys);
+                jQuery("#objImgs").html(html_imgs);
+            } else { console.log(error); }
+        });
+    }
+
+</script>
